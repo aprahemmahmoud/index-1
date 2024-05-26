@@ -1,0 +1,324 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.section1{
+    background-image: url(images/header-bg.jpg);
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    /* background-attachment: fixed; */
+    
+}
+nav{
+    background-color:rgba(0, 0, 0, 0.845) ;
+    position: fixed;
+    width: 100%;
+    right: 0px;
+    left: 0px;
+    top: 0px;
+    z-index: 1;
+}
+.img1{
+    width: 25%;
+    margin-top: 10px;
+    margin-left: 10px;
+    
+}
+ul{
+    position: absolute;
+    right: 40px;
+    top: 25px;
+    word-spacing: 20px;
+    font-size: 25px;
+    color: azure;
+}
+ul li{
+    display: inline-block;
+    list-style: none;
+   
+   
+}
+ul li:hover{
+    color: yellow;
+    transform: scale(1.3);
+    transition: 1s;
+}
+a{
+    color: azure;
+    text-decoration: none;
+}
+.tatel{
+    /* background-color: aqua; */
+    color: azure;
+    width: 30%;
+    margin: auto;
+    position: relative;
+    top: 410px;
+}
+.tatel p,h1{
+    text-align: center;
+}
+.tatel p{
+    font-size: 25px;
+}
+.tatel h1{
+    font-size: 40px;
+}
+.tellme{
+    margin: auto;
+    width: 60%;
+    padding: 20px;
+    position: absolute;
+    font-size: 30px;
+    right: 100px;
+    border-radius: 10px;
+    color: white;
+    background-color: yellow;
+}
+.tellme:hover{
+    opacity: 0.5;
+    cursor: grab;
+}
+
+/* ----------------------------------تم المنطقه الاوله ---------------------------------------------------*/
+.h23{
+    font-size: 50px;
+}
+.fa-solid{
+    background-color:yellow;
+    border-radius: 50%;
+
+    transform: scale(4);
+    width: 20px;
+    height:20px ;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+.text img{
+    width: 200px;
+    border-radius: 50%;
+    
+}
+.text p{
+    width: 200px;
+    
+}
+.text h3{
+    font-size: 30px;
+}
+.text{
+    text-align: center;
+    display:  inline-block;
+    margin: 10px 50px;
+   
+    
+
+}
+.div2{
+    text-align: center;
+    background: aliceblue;
+}
+/* ------------------------------------------------------------------------------ */
+.mother-div{
+    text-align: center;
+
+}
+.img-f img{
+    width: 450px;
+}
+/* .img-f img:hover{
+    background-color:rgba(255, 255, 0, 0.662) ;
+    z-index: 3 ;
+} */
+
+.img-f{
+ float: right;
+    width: 33%;
+    padding: 30px;
+}
+
+ .h2h {
+    font-size: 50px ;
+    margin-top: 100px;
+    text-align: center;
+}
+/* .h2h p{
+    text-align: center;
+    background-color: aqua;
+} */
+/* .x:hover{
+    background: tan;
+} */
+.clear{
+    clear: both;
+}
+.about{
+    /* background-color: aqua; */
+    margin: 100px;
+    text-align: center;
+    position: relative;
+}
+.about img{
+    border-radius:50%;
+    border: solid 8px gray;
+}
+.about p{
+    position: absolute;
+    width: 30%;
+    left: 65%;
+    top: 35%;
+}
+.about h3{
+    position: absolute;
+        width: 30%;
+        left: 57%;
+        top: 15%;
+}
+.enddiv{
+    background-color: yellow;
+    color: azure;
+    width: 216px ;
+    height: 216px;
+    font-size: 40px;
+    border-radius: 50%;
+    margin: auto;
+    margin-bottom: 50px;
+    border: solid 8px gray;
+}
+.enddiv h5{
+    text-align: center;
+    position: relative;
+    top: 60px;
+}
+.zx{
+    position: relative;
+}
+.zx::before{
+    content:'';
+    position: absolute;
+    background-color: gray;
+    width: 3px;
+    height: 100px;
+    left: 50%;
+    top: 99%;
+}
+/* ------------------------------------------------------------ */
+.team{
+    text-align: center;
+    /* width: 100%; */
+    margin: 100px;
+    background-color: rgb(241, 243, 244);
+}
+.divpro {
+    width: 30%;
+    margin: 70px 20px;
+    /* background-color: aqua; */
+    float: left;
+}
+.divpro img{
+    height: 224px;
+    width: 224px;
+    border-radius: 50%;
+    
+}
+
+.divpro p::first-line{
+    font-size: 30px;
+}
+.fa-brands{
+    padding: 10px;
+    scale: 2;
+}
+.fa-brands:hover{
+    opacity: 0.7;
+}
+/* ---------------------------------------------------- */
+.motherend{
+    background-color: rgb(249, 249, 249);
+    padding: 20px 10px;
+}   
+.end1{
+    display: flex;
+    justify-content: space-evenly;
+}
+.end1 img{
+    padding: 20px;
+    width: 15%;
+}
+
+.end2{
+    background-color: rgba(0, 0, 0, 0.842);
+    background-image: url(images/map-image.png);
+    height: 100vh;
+    text-align: center;
+}
+h6{
+    font-size: 50px;
+    color: aliceblue;
+}
+.motherend p{
+    font-size: larger;
+    color: aliceblue;
+}
+.table{
+    width: 90%;
+    margin: 40px auto;
+    /* background-color: aqua; */
+    height: 70%;
+    
+}
+.table input{
+    position: relative;
+    width: 100%;
+    height: 60%;
+    margin: -10px ;
+    margin-left: 5px;
+    padding: 10px;
+    border-radius: 20px;
+    outline: none;
+}
+table input[type="submit"]{
+    height: 50px;
+    position: relative;
+    width: auto;
+    left: 65%;
+    background-color: rgba(255, 255, 0, 0.731);
+    border-radius: 20px;
+    padding: 10px;
+    outline: none;
+}
+table input[type="submit"]:hover{
+    /* opacity: 1; */
+   background-color: yellow;
+}
+textarea{
+    width: 95%;
+    height:86% ;
+    position: relative;
+    top: 1%;
+    margin-left: 5px;
+    padding: 10px;
+    border-radius: 20px;
+    outline: none;
+}
+.table input:focus {
+    background-color: rgba(95, 158, 160, 0.372);
+}
+textarea:focus{
+    background-color: rgba(95, 158, 160, 0.372);
+}
+
+.happy{
+    height: 100px;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-evenly;
+    align-content: center;
+}
